@@ -17,4 +17,9 @@ int main()
     varibu->tambahanAnak(varAnak1);
     varibu->tambahanAnak(varAnak2);
     varibu2->tambahanAnak(varAnak3);
+
+    varibu->cetakAnak();
+    varibu2->cetakAnak();
+
+    return 0;
 }
