@@ -14,4 +14,9 @@ public:
     {
         cout << "pasien \"" << nama << "\"ada\n";
     };
+
+    ~pasien()
+    {
+        cout << "pasien \"" << nama << "\" tidak ada\n";
+    };
 }
