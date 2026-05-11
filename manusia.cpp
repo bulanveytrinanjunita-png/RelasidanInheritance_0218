@@ -16,3 +16,4 @@ public:
         cout << name << "Mati\n";
     }
 };
+#endif
