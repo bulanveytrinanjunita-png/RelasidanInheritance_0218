@@ -8,4 +8,7 @@ using namespace std;
 int main()
 {
     Manusia *varManusia = new Manusia("jono");
+
+    delete varManusia;
+    return 0;
 }
