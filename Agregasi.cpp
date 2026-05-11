@@ -13,4 +13,8 @@ int main()
     anak *varAnak1 = new anak("tono");
     anak *varAnak2 = new anak("tiara");
     anak *varAnak3 = new anak("dini");
+
+    varibu->tambahanAnak(varAnak1);
+    varibu->tambahanAnak(varAnak2);
+    varibu2->tambahanAnak(varAnak3);
 }
