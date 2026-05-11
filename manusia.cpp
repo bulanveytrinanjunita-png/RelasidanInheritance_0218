@@ -4,6 +4,15 @@
 class Manusia
 {
 public:
-    string nama;
+    string name;
     jantung varjantung;
-}
+
+    Manusia(string pName) : name(pName)
+    {
+        cout << name << "Hidup\n";
+    }
+    ~Manusia()
+    {
+        cout << name << "Mati\n";
+    }
+};
